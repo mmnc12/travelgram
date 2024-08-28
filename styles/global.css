@@ -45,7 +45,7 @@ html {
   font-weight: var(--fw-base);
   font-size: var(--fs-m);
   line-height: 1.7;
-  color: var(--text-color-primary);
+  color: var(--text-color-secondary);
 }
 
 body {

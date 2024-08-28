@@ -1,6 +1,6 @@
 #header {
   padding-block: var(--pd-y);
-  
+  background: var(--surface-color);
 
   & nav {
     display: flex;
