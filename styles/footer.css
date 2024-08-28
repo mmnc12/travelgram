@@ -1,0 +1,18 @@
+footer {
+  display: grid;
+  font-size: var(--fs-md);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-block: 1rem;
+
+  & > div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  @media (width >= 80em) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

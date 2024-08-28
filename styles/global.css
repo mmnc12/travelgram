@@ -46,10 +46,16 @@ html {
   font-size: var(--fs-m);
   line-height: 1.7;
   color: var(--text-color-secondary);
+
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--bg-color);
+
+  overflow-x: hidden;
 }
 
 h1 {
