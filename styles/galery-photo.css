@@ -1,0 +1,31 @@
+#galery-photo {
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+
+  gap: 1rem;
+
+  & img {
+    width: 20.5rem;
+    height: 20.5rem;
+
+    object-fit: cover;
+  }
+
+  @media (width >= 80em) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+    gap: 1.5rem;
+
+    & img {
+      width: 17.875rem;
+      height: 17.875rem;
+  
+      object-fit: cover;
+    }
+  }
+}
