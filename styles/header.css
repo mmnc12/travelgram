@@ -2,6 +2,8 @@
   padding-block: var(--pd-y);
   background: var(--surface-color);
 
+  padding: 1.25rem 2rem;
+
   & nav {
     display: flex;
     align-items: center;

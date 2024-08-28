@@ -1,7 +1,7 @@
 #about {
   background: var(--surface-color);
-  padding: var(--px-lg);
-
+  padding: 2rem;
+  
   & .main {
     width: 18.5rem;
 
