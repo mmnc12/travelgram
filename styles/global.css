@@ -30,14 +30,20 @@
 
   --fs-md: 0.875rem;
   --fs-sm: 0.75rem;
+  --fs-m: 1rem;
   --fs-xl: 1.5rem;
+
+  --px-lg: 1rem;
+
+  --pd-y: 1rem;
+  --pd-ya: 2rem;
 }
 
 
 html {
   font-family: var(--ff-sans);
   font-weight: var(--fw-base);
-  font-size: var(--fs-md);
+  font-size: var(--fs-m);
   line-height: 1.7;
   color: var(--text-color-primary);
 }
@@ -58,10 +64,16 @@ a {
   color: inherit;
 }
 
-@media (width >= 80em) {
+@media (width >=80em) {
   :root {
     --fs-md: 0.875rem;
-  --fs-sm: 0.75rem;
-  --fs-xl: 2rem;
+    --fs-sm: 0.75rem;
+    --fs-xl: 2rem;
+
+    --px-lg: 2rem;
+
+    --pd-y: 1.25rem;
+    --pd-ya: 2rem;
+    --pd-yp: 1.5rem
   }
 }

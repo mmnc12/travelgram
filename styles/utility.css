@@ -1,0 +1,14 @@
+.container {
+  --max-width: 22.5rem;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+  border: solid violet;
+}
+
+@media (width >= 80em) {
+  .container {
+    --max-width: 80rem;
+
+    --pd-x: 2rem;
+  }
+}

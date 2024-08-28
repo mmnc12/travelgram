@@ -1,0 +1,42 @@
+#header {
+  padding-block: var(--pd-y);
+  
+
+  & nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .pics {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    color: var(--text-color-secondary);
+    font-family: var(--ff-sans);
+  }
+
+  & .pics a {
+    display: none;
+  }
+
+  & .logo {
+    width: 10.125rem;
+    height: 2rem;
+  }
+
+  & .picture {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  @media (width >=80em) {
+
+    & .pics a {
+      display: block;
+      font-size: var(--fs-m);
+    }
+  }
+
+}
